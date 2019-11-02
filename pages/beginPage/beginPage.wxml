@@ -1,0 +1,11 @@
+<!--pages/beginPage/beginPage.wxml-->
+<view class='whole'>
+<view class="goToIndex">
+<button >
+点击进入
+</button>
+
+</view>
+
+
+</view>
