@@ -2,7 +2,21 @@
   "pages": [
     "pages/beginPage/beginPage",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/find/find",
+    "pages/my/my",
+    "pages/index/navigation/navigation",
+    "pages/index/position/position",
+    "pages/index/index/feature/feature",
+    "pages/index/index/voice/voice",
+    "pages/index/index/delicacy/delicacy",
+    "pages/index/index/newNavigation/newNavigation",
+    "pages/index/index/news/new",
+    "pages/index/index/bus/bus",
+    "pages/index/index/maps/maps",
+    "pages/index/index/forum/forum",
+    "pages/index/index/schoolTimetable/schoolTimetable",
+    "pages/index/emotyClassroom/emotyClassroom"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,9 +24,27 @@
     "navigationBarTitleText": "中北通",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
-  
-
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/index/image/首页.jpg",
+        "selectedIconPath": "pages/index/image/首页-选中.jpg"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "pages/index/image/发现.jpg",
+        "selectedIconPath": "pages/index/image/发现-选中.jpg"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "pages/index/image/我的.jpg",
+        "selectedIconPath": "pages/index/image/我的-选中.jpg"
+      }
+    ]
+  }
 }
-
-

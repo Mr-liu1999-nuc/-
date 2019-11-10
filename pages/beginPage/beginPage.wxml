@@ -1,4 +1,9 @@
 <!--pages/beginPage/beginPage.wxml-->
 <view class='whole'>
-<button size="mini" class="goToIndex" bindtap="goToIndex">开始</button>
+  <view class="ie">
+    <navigator url="/pages/index/index" open-type="switchTab">
+        <!--<image src="/pages/beginPage/image/goToIndex.jpg" class="goToIndexImage"></image>-->
+          <button size ="mini">开始</button>
+    </navigator>
+  </view>
 </view>

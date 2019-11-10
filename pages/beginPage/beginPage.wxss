@@ -1,8 +1,8 @@
 /* pages/beginPage/beginPage.wxss */
-page{
+/*page{
 width:100%;
 height:100%;
-}
+}*/
 .whole{
 width:100%;
 height:100%;
@@ -11,7 +11,17 @@ background-size: cover;
 }
 .goToIndex{
   margin-top:970rpx;
-  margin-left:300rpx;
-
+  margin-left:0rpx;
+}
+.ie{
+  padding-top: 1150rpx;
+  padding-left: 350rpx;
 
 }
+.goToIndexImage{
+  
+  height: 100rpx;
+  width: 220rpx;
+
+}
+

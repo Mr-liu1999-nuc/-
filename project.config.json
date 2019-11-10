@@ -40,12 +40,20 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "pages/index/index",
 					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "pages/index/navigation/navigation",
+					"pathName": "pages/index/navigation/navigation",
+					"query": "",
 					"scene": null
 				}
 			]
